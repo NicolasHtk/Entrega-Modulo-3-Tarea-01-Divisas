@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <p>*imagen de dinero*</p>
+    <h2>Cantidad de dinero</h2>
+    <input type="number" name="cantidad" id="cantidad" placeholder="$0">
+    <br><br>
+    <span>Convertir de</span>
+    <select name="select" id="moneda1">
+        <option value="1" >USD</option>
+        <option value="2" selected>EUR</option>
+        <option value="3">COP</option>
+    </select>
+    <span>a</span>
+    <select name="select" id="moneda2">
+        <option value="1" selected>USD</option>
+        <option value="2">EUR</option>
+        <option value="3" >COP</option>
+    </select>
+    <br><br>
+    <input type="button" value="Convertir" onclick="convertir()">
+    <p id="resultado"></p>
+</body>
+
+</html>
