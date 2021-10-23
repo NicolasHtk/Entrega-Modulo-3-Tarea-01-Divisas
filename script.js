@@ -38,7 +38,7 @@ function convertir() {
     }
 
 
-    if (cantidad >= 1) {
+    if (cantidad >= 1 && moneda1 != moneda2) {
         document.getElementById("resultado").innerHTML = cantidad.toFixed(2) + moneda1 + "Es igual a " + resultado.toFixed(2) + moneda2;
     } else {
         resultado = "Por favor ingrese un numero valido."
